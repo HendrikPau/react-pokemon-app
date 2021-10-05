@@ -1,9 +1,13 @@
 import React from 'react'
-import  { GridContent } from './style'
+import  { GridContent, StyledButton, StyledName } from './style'
 
 export default function PokemonSave() {
 
     return (
-        <GridContent>iets</GridContent>
+        <GridContent>
+          <img></img>
+          <StyledName>pokemon name</StyledName>
+          <StyledButton>Save Pokemon</StyledButton>
+        </GridContent>
       )
 }

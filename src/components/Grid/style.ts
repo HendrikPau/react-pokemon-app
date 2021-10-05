@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const GridContainer = styled.div`
-    background-color: blue;
-
     display: grid;    
     width: 100%;
-    grid-template-columns: repeat(3, 1fr)
+    height: 400px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 2rem;
 `
